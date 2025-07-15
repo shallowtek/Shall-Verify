@@ -1,0 +1,78 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shall.Verify.AppHost", "Shall.Verify.AppHost\Shall.Verify.AppHost.csproj", "{D9AB4D07-DFD8-427A-B5F2-42CA6E81EF00}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shall.Verify.ServiceDefaults", "Shall.Verify.ServiceDefaults\Shall.Verify.ServiceDefaults.csproj", "{E566B591-7CDF-4E7C-BC98-CB05E0791440}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shall.Verify.Dashboard", "Shall.Verify.Dashboard\Shall.Verify.Dashboard.csproj", "{47A19D2F-0AAF-456A-AB0A-AEDEA6AE4539}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shall.Verify.Testing.Integration", "Shall.Verify.Tests\Shall.Verify.Testing.Integration.csproj", "{AED14551-26CF-4345-A3DB-C7FFAEE47F49}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shall.Verify.LookupService", "Shall.Verify.LookupService\Shall.Verify.LookupService.csproj", "{4AB06AB9-A2E6-446C-92EF-F037877AC23C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shall.Verify.VerifyService", "Shall.Verify.VerifyService\Shall.Verify.VerifyService.csproj", "{A028F803-9EC2-4417-9198-9F6DF838C8FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shall.Verify.ConfigurationService", "Shall.Verify.ConfigurationService\Shall.Verify.ConfigurationService.csproj", "{1FEDE4F7-1C8E-4A4F-9366-D56259F46041}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shall.Verify.Common", "Shall.Verify.Common\Shall.Verify.Common.csproj", "{F8748832-1786-42C5-B9DA-7A0EC37B263A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shall.Verify.OrchestrationService", "Shall.Verify.OrchestrationService\Shall.Verify.OrchestrationService.csproj", "{A14F0CE4-2FDD-4A0B-8938-483ED4EEEA36}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shall.Verify.RecordService", "Shall.Verify.RecordService\Shall.Verify.RecordService.csproj", "{4DA346C8-F5D4-4284-8D0C-CDD39DA1C2AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9AB4D07-DFD8-427A-B5F2-42CA6E81EF00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9AB4D07-DFD8-427A-B5F2-42CA6E81EF00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9AB4D07-DFD8-427A-B5F2-42CA6E81EF00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9AB4D07-DFD8-427A-B5F2-42CA6E81EF00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E566B591-7CDF-4E7C-BC98-CB05E0791440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E566B591-7CDF-4E7C-BC98-CB05E0791440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E566B591-7CDF-4E7C-BC98-CB05E0791440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E566B591-7CDF-4E7C-BC98-CB05E0791440}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47A19D2F-0AAF-456A-AB0A-AEDEA6AE4539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47A19D2F-0AAF-456A-AB0A-AEDEA6AE4539}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47A19D2F-0AAF-456A-AB0A-AEDEA6AE4539}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47A19D2F-0AAF-456A-AB0A-AEDEA6AE4539}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AED14551-26CF-4345-A3DB-C7FFAEE47F49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AED14551-26CF-4345-A3DB-C7FFAEE47F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AED14551-26CF-4345-A3DB-C7FFAEE47F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AED14551-26CF-4345-A3DB-C7FFAEE47F49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AB06AB9-A2E6-446C-92EF-F037877AC23C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AB06AB9-A2E6-446C-92EF-F037877AC23C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AB06AB9-A2E6-446C-92EF-F037877AC23C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AB06AB9-A2E6-446C-92EF-F037877AC23C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A028F803-9EC2-4417-9198-9F6DF838C8FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A028F803-9EC2-4417-9198-9F6DF838C8FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A028F803-9EC2-4417-9198-9F6DF838C8FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A028F803-9EC2-4417-9198-9F6DF838C8FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FEDE4F7-1C8E-4A4F-9366-D56259F46041}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FEDE4F7-1C8E-4A4F-9366-D56259F46041}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FEDE4F7-1C8E-4A4F-9366-D56259F46041}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FEDE4F7-1C8E-4A4F-9366-D56259F46041}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8748832-1786-42C5-B9DA-7A0EC37B263A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8748832-1786-42C5-B9DA-7A0EC37B263A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8748832-1786-42C5-B9DA-7A0EC37B263A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8748832-1786-42C5-B9DA-7A0EC37B263A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A14F0CE4-2FDD-4A0B-8938-483ED4EEEA36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A14F0CE4-2FDD-4A0B-8938-483ED4EEEA36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A14F0CE4-2FDD-4A0B-8938-483ED4EEEA36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A14F0CE4-2FDD-4A0B-8938-483ED4EEEA36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DA346C8-F5D4-4284-8D0C-CDD39DA1C2AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DA346C8-F5D4-4284-8D0C-CDD39DA1C2AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DA346C8-F5D4-4284-8D0C-CDD39DA1C2AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DA346C8-F5D4-4284-8D0C-CDD39DA1C2AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56AFEC78-3CE4-458B-803E-44D472AD01B9}
+	EndGlobalSection
+EndGlobal

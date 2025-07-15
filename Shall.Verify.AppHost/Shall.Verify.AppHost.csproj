@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsAspireHost>true</IsAspireHost>
+    <UserSecretsId>733d1541-c198-4ed1-bb1c-511821ff33f4</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Shall.Verify.ConfigurationService\Shall.Verify.ConfigurationService.csproj" />
+    <ProjectReference Include="..\Shall.Verify.LookupService\Shall.Verify.LookupService.csproj" />
+    <ProjectReference Include="..\Shall.Verify.Dashboard\Shall.Verify.Dashboard.csproj" />
+    <ProjectReference Include="..\Shall.Verify.OrchestrationService\Shall.Verify.OrchestrationService.csproj" />
+    <ProjectReference Include="..\Shall.Verify.RecordService\Shall.Verify.RecordService.csproj" />
+    <ProjectReference Include="..\Shall.Verify.VerifyService\Shall.Verify.VerifyService.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="8.2.1" />
+    <PackageReference Include="Aspire.Hosting.Elasticsearch" Version="8.2.1-preview.1.24473.4" />
+    <PackageReference Include="Aspire.Hosting.Kafka" Version="8.2.1" />
+    <PackageReference Include="Aspire.Hosting.PostgreSQL" Version="8.2.1" />
+    <PackageReference Include="Aspire.Hosting.Redis" Version="8.2.1" />
+    <PackageReference Include="Confluent.Kafka" Version="2.6.0" />
+  </ItemGroup>
+
+</Project>
